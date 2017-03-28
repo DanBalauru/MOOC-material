@@ -7813,16 +7813,16 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class LotteryNumbers {
-    private ArrayList&lt;Integert&gt; numbers;
+    private ArrayList&lt;Integer&gt; numbers;
 
     public LotteryNumbers() {
         // We'll format a list for the numbers
-        this.numbers = new ArrayList&lt;Integert&gt;();
+        this.numbers = new ArrayList&lt;Integer&gt;();
         // Draw numbers as LotteryNumbers is created
         this.drawNumbers();
     }
 
-    public ArrayList&lt;Integert&gt; numbers() {
+    public ArrayList&lt;Integer&gt; numbers() {
         return this.numbers;
     }
 
@@ -7844,7 +7844,7 @@ import java.util.ArrayList;
 public class Program {
     public static void main(String[] args) {
         LotteryNumbers lotteryNumbers = new LotteryNumbers();
-        ArrayList&lt;Integert&gt; numbers = lotteryNumbers.numbers();
+        ArrayList&lt;Integer&gt; numbers = lotteryNumbers.numbers();
 
         System.out.println("Lottery numbers:");
         for (int number : numbers) {
